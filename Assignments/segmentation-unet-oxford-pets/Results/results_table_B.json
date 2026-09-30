@@ -14,13 +14,5 @@
     "test_iou": 0.8237,
     "params": 7765985,
     "observation": "Ran full 30 epochs without early stopping, unlike A -- BCE+Dice kept improving longer. Compare test Dice vs A to assess real effect size."
-  },
-  {
-    "experiment": "C - BCE+Dice + augmentation",
-    "val_dice": 0.8969,
-    "test_dice": 0.9028,
-    "test_iou": 0.832,
-    "params": 7765985,
-    "observation": "Higher train loss than B throughout (0.105 vs 0.069 final) with similar/better val Dice -- augmentation made training harder without hurting generalization, the expected signature of it working as intended."
   }
 ]

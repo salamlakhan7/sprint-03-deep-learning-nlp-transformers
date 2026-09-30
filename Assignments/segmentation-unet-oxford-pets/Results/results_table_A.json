@@ -1,0 +1,10 @@
+[
+  {
+    "experiment": "A - Baseline (BCE, no aug)",
+    "val_dice": 0.8902,
+    "test_dice": 0.8937,
+    "test_iou": 0.8181,
+    "params": 7765985,
+    "observation": "Transparent baseline; BCE alone already reaches strong overlap on this clean, well-balanced dataset."
+  }
+]
